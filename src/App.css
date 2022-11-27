@@ -39,3 +39,27 @@
   font-size: 16px;
   font-weight: 300;
 }
+.card{
+  width: 235px;
+}
+
+.card-img{
+  width: 100%;
+}
+.card-stats img{
+  height: 14px;
+}
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: bold;
+}
+
+.card-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}

@@ -1,5 +1,6 @@
 
 function Card({ img,imgicon,rating,number,para,para2}){
+    
     return(
         <>
         <div className="card">

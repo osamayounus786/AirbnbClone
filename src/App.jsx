@@ -7,7 +7,9 @@ import card1 from './assets/images/Card1.png'
 import img from './assets/images/Card2.png'
 import card3 from './assets/images/Card3.png'
 import imgicon from './assets/images/star.png'
+import {data} from './components/carddata'
 function App() {
+  console.log(data);
   return (
     <>
     <NavImg />

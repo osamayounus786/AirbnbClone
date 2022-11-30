@@ -1,21 +1,23 @@
 
-function Card({ img,imgicon,rating,number,para,para2}){
+
+
+function Card(props){
     
     return(
         <>
         <div className="card">
-            <img src={img} alt="wedding" className='card-img' />
+            <img src={props.img} alt="wedding" className='card-img' />
             <div className='card-stats'>
-                <img src={imgicon} alt="rating star" />
-                <span>{rating}</span>
-                <span className='gray'>{number}</span>
+                <img src={props.imgicon} alt="rating star" />
+                <span>{props.rating}</span>
+                <span className='gray'>{props.number}</span>
                 </div>
-                <p>{para}</p>
-                <p><span className='bold'>{para2}</span> / peroson</p>
+                <p>{props.para}</p>
+                <p><span className='bold'>{props.para2}</span> / peroson</p>
             
         </div>
         </>
     )
 }
 
-export {Card};
+export default Card;

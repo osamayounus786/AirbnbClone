@@ -10,25 +10,31 @@ export const data =[{
           rating: '5.0',
           number: '(6) ●USA',
           para: 'Life lesson with Kattie Zeferes',
-          para2: 'From $126'
+          para2: 'From $126',
+          location: "Online",
+          openSpots: 0,
 },
 {
   id: 2,
-  img: card2,
+  img: card3,
   imgicon : star,
   rating: '4.8',
   number: '(30) ●USA',
   para: 'Group Mountain Biking',
-  para2: 'From $130'
+  para2: 'From $130',
+  location: "Online",
+  openSpots: 27,
 },
 {
   id: 3,
-  img: card3,
+  img: card2,
   imgicon : star,
   rating: '5.0',
   number: '(6) ●USA',
   para: 'Learn wedding photography',
-  para2: 'From $125'
+  para2: 'From $125',
+  location: "Online",
+  openSpots: 3,
 },
 ]
 

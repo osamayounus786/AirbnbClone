@@ -9,13 +9,7 @@ function App() {
     
       return(<Card 
         key= {item.id}
-        img={item.img}
-        imgicon= {item.imgicon}
-        rating= {item.rating}
-        number= {item.number}
-        para={item.para}
-        para2= {item.para2}
-        openSpots= {item.openSpots}
+        {...item}
       />) 
   })
   return (
